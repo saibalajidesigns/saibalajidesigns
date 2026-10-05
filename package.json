@@ -1,0 +1,8 @@
+{
+  "name": "sai-balaji-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": "22.x" },
+  "scripts": { "build": "node scripts/build.cjs", "test": "node --test tests/contact.test.cjs" },
+  "dependencies": { "nodemailer": "^7.0.0" }
+}
